@@ -1,0 +1,25 @@
+Poznámky k pseudokódu:
+PathLength - cesta k leadru, nejèastìjší hodnota je 3
+PRT - udává smìr, kud jedinec jde, nabývá hodnot 0 nebo 1
+PathLength a Step musí být dìlitelný se zbytkem
+PRT - nastavit hodnotu od 0,1 (0,11) až 0,4 (lepší nastavit 0,4, jinak se moc nepohneme)
+
+PathLength hodnoty
+1 - dopadne na leadra
+2 - pøeskoèí jednou leadra
+3 - pøeskoèí dvakrát leadra
+
+Samotný kód:
+t je hodnota stepu 0,11
+vygenerujeme si PRTVector
+po každém kroku se jedinec ohodnotí
+ukládám vždy jedince do nové populace
+
+Poèet ohodnocení na úèelové funkci CFE je dùležité se nauèit kvùli zkoušce
+
+Indexy:
+i - jedinci
+j - parametry
+start - poèáteèní hodnota (startovní pozice), kde je jedinec na zaèátku toho cyklu
+
+nová pozice = stará pozice + (leader pozice - stará pozice) * t * PRTVector

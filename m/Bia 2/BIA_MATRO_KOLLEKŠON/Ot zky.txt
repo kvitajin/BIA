@@ -1,0 +1,24 @@
+Examination - questions:
+
+- No free lunch theorem
+- Single objective and multi-objective optimization: differences, approaches
+- Types of test functions
+- Pareto set
+- Traveling salesman problem: suitable algorithms
+- Local search algorithms: hill climbing, tabu search, simulated annealing
+- Evolution strategy: principle, variants 
+- The normal distribution in evolutionary algorithms
+- Evolutionary algorithms - typical phases, examples of algorithms
+- Swarm intelligence - typical phases, examples of algorithms
+- Genetic algorithm - types of crossover
+- Differential evolution - mutation vector, trial vector, target vector, mutation strategies, crossover, natural selection, control parameters
+- Particle swarm optimization - pBest, gBest, velocity, inertia weight, equation of movement, control parameters
+- Self-organizing migrating algorithm - leader, strategies, equation of movement, control parameters
+- Ant colony optimization - probabilities of movement, recalculation of pheromones  
+- Firefly algorithm - the movement of fireflies, equation of movement, control parameters
+- Teaching-learning based algorithm - teaching phase, learning phase, teacher, mean, learner, control parameters
+- Diversity of population - positive and negative influences. How to preserve the diversity of the population. Premature convergence
+- Elitism and its influence on the algorithm convergence
+- Complexity of algorithms   
+- Number of evaluations of the objective function
+- NSGA II: Principle, fast non-dominated sorting

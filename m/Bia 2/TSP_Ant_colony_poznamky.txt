@@ -1,0 +1,29 @@
+nikdy se konstanta hrany nenastavuje na nulu, jen na strašnì malou hodnotu
+
+Poèet mìst = poèet mravencù
+Každý mravenec jde z jiného mìsta
+
+p_k(r,s) - vzdálenost mezi mìst r a s
+t(r,s) - hodnota feromonu
+n(r,s) - inverzní vzdálenost mezi mìst r a s
+
+pro mìsta A a B
+
+t(A,B) * 1 / d(A,B)
+---------------------------------------------
+t(A,B) * 1/n(A,B) + t(A,C) * 1/n(A,C) + t(A,D) * 1/n(A,D) ....
+
+
+A,C (další možnosti jsou C,B; C,D; ... ale né už C,A ani C,C:
+
+
+Nejdøíve si nastavím matici vzdáleností, matici inverzních vzdáleností, matici feromonù
+
+if r < City number => jdu do tohodle City (example step 3 => city 4)
+
+
+Example Step 5:
+rovnice dole je pøepoèet feromonù
+(1 - p)
+0,5 * 1 + (do celé sumy dosadit hodnotu ze vzorce pro všechny mravence ve slidu Example Step 6)
+
